@@ -1,0 +1,235 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    background-color: #0b1533;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: #0b1533;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#logo img {
+    height: 55px;
+    margin: 20px 1200px 0 0;
+}
+
+nav ul{ 
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul li{ 
+    padding: 0 25px;
+    margin: 0 5px;
+    font-size: 1em;
+    line-height: 4.5em;
+}
+nav ul button{ 
+    padding: 5px 15px;
+    margin:  5px;
+    font-size: 1em;
+    line-height: 2em;
+    border: none;
+    border-radius: 10px;
+    background-color: #1a2852;
+    
+}
+
+nav ul button a{
+    color: #d8d8d8;
+    text-decoration: none;
+}
+
+nav ul li a {
+    color: #d8d8d8;
+    padding: 8px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+nav ul li a:hover{
+    color: #769ccf;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.prvni{
+    flex: 1;
+   margin: 15px 30px;
+   width: 960px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+section .obrazek img{
+    flex: 1;
+    width: 850px;
+    height: auto;
+    margin: 95px 0 0 180px;
+}
+
+section .content{
+    flex: 3;
+    margin: 230px 140px 0 0 ;
+}
+section .content img{
+    height: 150px;
+    width: auto;
+}
+
+section .content p {
+    width: 500px;
+    color: #d8d8d8;
+}
+
+.container section .content button{
+    padding: 10px 35px;
+    color: #d8d8d8;
+    background-color: rgb(194, 208, 218);
+    border: none;
+    border-radius: 10px;
+    margin: 20px 0 0 0;
+}
+
+.container section .content button a{
+    text-decoration: none;
+    color: rgb(31, 35, 97);
+    letter-spacing: 1.2px;
+}
+
+.mainblock{
+    width: 100%;
+    height: 80px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, #0b1533 0%, #070d1e 50%, #0b1533 100%);
+    
+}
+
+.mainblock h1{ 
+    color: whitesmoke;
+    margin: 22px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.maintitle{
+    display: flex;
+}
+
+.waves {
+    height: auto;
+    width: 100%;
+    background-color: #d3e5ff;
+}
+
+.ddd{
+    background-color: #d3e5ff;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    background-color: #d3e5ff;
+    
+}
+
+section .obrazekreditele img{
+    flex: 1;
+    width: 850px;
+    height: auto;
+    margin: 95px 0 200px 180px;
+
+}
+
+section .slova{
+    flex: 3;
+    margin: 95px 240px 0 80px ;
+}
+section .slova img{
+    height: 150px;
+    width: auto;
+}
+
+section .slova p {
+    width: 500px;
+    color: #0b1533;
+}
+
+.container2 section .slova button{
+    padding: 10px 35px;
+    color: #d8d8d8;
+    background-color: rgb(194, 208, 218);
+    border: none;
+    border-radius: 10px;
+    margin: 20px 0 0 0;
+}
+
+.container2 section .slova button a{
+    text-decoration: none;
+    color: rgb(31, 35, 97);
+    letter-spacing: 1.2px;
+}
+
+.mainblock2{
+    width: 100%;
+    height: 80px;
+    background-color: #487abd;
+}
+
+.mainblock2 h1{ 
+    color:#0b1533;
+    margin: 22px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.footer{
+    width: 100%;
+    height: wrap;
+    background-color: #0b1533;
+}
+
+.footer ul{
+    margin-top: 20px;
+}
+
+.footer li {
+    list-style-type: none;
+    margin: 20px ;
+}
+
+.footer li a{
+    color: whitesmoke;
+    text-decoration: none;
+    transition: 0.5s;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.footer li a:hover{
+    color: #769ccf;
+    text-decoration: none;
+}
