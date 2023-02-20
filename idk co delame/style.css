@@ -8,61 +8,6 @@ body {
     margin: 0;
 }
 
-header {
-    height: 100px;
-    width: 100%;
-    background-color: #0b1533;
-    color: black;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-#logo img {
-    height: 55px;
-    margin: 20px 1200px 0 0;
-}
-
-nav ul{ 
-    margin: 0;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    height: 100%;
-}
-
-nav ul li{ 
-    padding: 0 25px;
-    margin: 0 5px;
-    font-size: 1em;
-    line-height: 4.5em;
-}
-nav ul button{ 
-    padding: 5px 15px;
-    margin:  5px;
-    font-size: 1em;
-    line-height: 2em;
-    border: none;
-    border-radius: 10px;
-    background-color: #1a2852;
-    
-}
-
-nav ul button a{
-    color: #d8d8d8;
-    text-decoration: none;
-}
-
-nav ul li a {
-    color: #d8d8d8;
-    padding: 8px 0;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: 0.5s;
-}
-
-nav ul li a:hover{
-    color: #769ccf;
-}
 
 .container {
     display: flex;
